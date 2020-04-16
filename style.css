@@ -25,6 +25,10 @@ flex: 1;
 font-family: 'Pacifico', cursive;
 font-size: 30px;
 }
+#hh{
+    color: black;
+}
+
 .about{
     margin-right: 1%;
 }
