@@ -51,10 +51,9 @@ ul li{
 }
 
 ul li a{
-    background: linear-gradient(to right, rgb(49, 71, 92),rgb(114, 129, 141));
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; 
+    color: white;
 }
+
 main{
     
     width: 60%;
