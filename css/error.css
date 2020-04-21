@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgb(224, 243, 154) , rgb(225, 245, 240));
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    align-items: center;
+    margin-top: 1%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(70, 69, 69);
+}
+
+.head-name{
+flex: 1;
+font-family: 'Pacifico', cursive;
+font-size: 30px;
+}
+#hh{
+    color: black;
+}
+
+.about{
+    margin-right: 1%;
+}
+.about1{
+flex: 1;
+justify-content: flex-end;
+font-family: 'Poppins', sans-serif;
+color: rgb(61, 65, 64);
+
+}
+.about1:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+}
+
+
+.oops{
+    background: linear-gradient(to right, rgb(3, 4, 5),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.updating{
+    font-size: 64px;
+    margin-top: 3%;
+    background: linear-gradient(to right, rgb(3, 4, 5),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    margin-top: 6%;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to right, rgb(7, 11, 14),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+.social{
+    margin-top: 1%;
+    font-size: 30px;
+}
+.social a{
+    background: linear-gradient(to right, rgb(7, 11, 14),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin: 3%;
+}
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    
+    margin-top: 4%;
+}
+
+
+.wrap{
+    
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 110px;
+    align-items: center;
+}
+.copy a{
+    color: white;
+}
+.copy{
+    opacity: 70%;
+    display: flex;
+    font-size: 13px;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    
+}
+.foot{
+    flex: 1;
+    
+}
+.designed{
+    margin-left: 3%;
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(to right, rgb(64, 111, 155),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;    
+}
+    
+    
+@media screen and (max-width: 725px) {
+   .oops{
+       margin-top: 19%;
+       font-size: 33px;
+   }
+   .updating{
+       margin-top: 13%;
+       font-size: 38px;
+   }
+   .contact{
+       margin-top: 39%;
+       margin-bottom: 7%;
+   }
+   .social a{
+    margin: 5%;
+   }
+
+   footer{
+       margin-top: 7%;
+   }
+
+   .copy{
+       font-size: 10px;
+   }
+
+   .foot{
+       text-align: center;
+   }
+
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgb(184, 243, 230) , rgb(225, 245, 240));
+}
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    align-items: center;
+    margin-top: 1%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(70, 69, 69);
+}
+
+.head-name{
+flex: 1;
+font-family: 'Pacifico', cursive;
+font-size: 30px;
+color: black;
+}
+#hh{
+    color: black;
+}
+.about{
+    margin-right: 1%;
+}
+.about1{
+flex: 1;
+justify-content: flex-end;
+font-family: 'Poppins', sans-serif;
+color: rgb(61, 65, 64);
+
+}
+.about1:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 9%;
+    height: 450px;
+    text-align: center;
+    
+    
+}
+.this{
+    font-size: 44px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(27, 43, 58),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.study{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to right, rgb(37, 61, 83),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.contact{
+    margin-top: 4%;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to right, rgb(7, 11, 14),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+.social{
+    margin-top: 1%;
+    font-size: 30px;
+}
+.social a{
+    background: linear-gradient(to right, rgb(7, 11, 14),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin: 3%;
+}
+
+footer{
+   background-color: black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.thank{
+    background: linear-gradient(to right, rgb(64, 111, 155),rgb(184, 194, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-family: 'Pacifico', cursive;
+}
+
+@media screen and (max-width: 725px) {
+    main{
+        height: 400px;
+        margin-top: 14%;
+    }
+     .this{
+         font-size: 24px;
+     }
+     #pakkala{
+         font-size: 27px;
+     }
+     .study{
+        font-size: 12px;
+     }
+     .contact{
+         margin-top: 13%;
+     }
+     .social{
+         margin-top: 12%;
+     }
+     .social a{
+         margin: 5%;
+     }
+
+}
+
+
