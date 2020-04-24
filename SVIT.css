@@ -242,7 +242,9 @@ footer{
        font-size: 26px;
    }
 
-
+   .ccn{
+       margin-bottom: 26%;
+   }
 
     .designed{
         font-size: 10px;
@@ -253,8 +255,8 @@ footer{
     }
     footer{
         margin-bottom: 0px;
-            padding-bottom: 0%;
-            margin-top: 6%;
+        padding-bottom: 0%;
+        margin-top: 8%;
     }
     .wrap{
         height: 60px;
