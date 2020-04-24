@@ -251,8 +251,8 @@ footer{
         margin-top: 1%;
     }
     footer{
-        margin-bottom: 0px;
-        padding-bottom: 0%;
+        position: absolute;
+        bottom: 0px;
         margin-top: 13%;
     }
     .wrap{
