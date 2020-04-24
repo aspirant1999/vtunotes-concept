@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-attachment: fixed;
     background-image: linear-gradient(to right, rgb(224, 243, 154) , rgb(225, 245, 240));
 }
 a{
@@ -253,7 +254,7 @@ footer{
     footer{
         position: absolute;
         bottom: 0px;
-        margin-top: 13%;
+        padding-bottom: 0%;
     }
     .wrap{
         height: 60px;
