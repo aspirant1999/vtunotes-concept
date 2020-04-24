@@ -69,10 +69,10 @@ main{
     height: 170px;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right, #ffecd2, #fcb69f);
+   background-color: #f89372;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
-    color: #7c6a63; 
+    color: #e7e1df; 
     transition: background 600ms ease-out;
 }
 
@@ -94,9 +94,9 @@ main{
     margin: auto;
     border-radius: 8px;
     margin-top: 8%;
-    background-image: linear-gradient(to right, #ffecd2, #fcb69f);
+    background-color: #f89372;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #7c6a63;
+    color: #e7e1df;
     transition: background 600ms ease-out;
 
 }
